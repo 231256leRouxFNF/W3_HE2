@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 header {
@@ -10,46 +9,101 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: #333;
 
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.topNav a {
+    float: left;
+    color: #ffffff;
+    text-align: center; 
+    padding: 14px 16px;
+    font-size: 17px;
+    
+}
+
+.topNavRight {
+    float: right;
 
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.topNav a:hover {
+    background-color: #ffffff;
+   color: #000000;
 
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.topNav a.active {
+    background-color: #04aa6d;
+    color: #ffffff;
 
 }
 
 main {
     padding: 20px;
-
 }
 
 section {
     margin-bottom: 20px;
-
 }
 
 section h1, section h2 {
     text-align: center;
-
 }
 
 section img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+}
+
+.imgTextOverlay {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+.imgTextOverlay img {
+    width: 75%;
+
+}
+
+.center {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topNav a {
+    float: left;
+    color: #ffffff;
+    text-align: center; 
+    padding: 14px 16px;
+    font-size: 17px;
+    
+}
+
+.topNavRight {
+    float: right;
+
+}
+
+.topNav a:hover {
+    background-color: #ffffff;
+   color: #000000;
+
+}
+
+.topNav a.active {
+    background-color: #04aa6d;
+    color: #ffffff;
 
 }
 
